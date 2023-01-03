@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="styles/cv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    ​<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <div class="top-bar">
+        <button class="btn" id="prev-page">
+         <i class="fas fa-arrow-circle-left"></i>Prev Page
+        </button>
+        <button class="btn" id="next-page">
+         <i class="fas fa-arrow-circle-right"></i>Next Page
+        </button>
+        <span class="page-info">
+            Page <span id="page-num"></span>of <span id="page-count"></span>
+        </span>
+    </div>
+    <canvas id="pdf-render"></canvas>
+</body>
+<script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+<script type="text/javascript" src="pdf.js"></script>
+<script type="text/javascript" src="app.js"></script> 
+</html>

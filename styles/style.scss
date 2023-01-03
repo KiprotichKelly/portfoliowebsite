@@ -610,7 +610,7 @@ section{
         position: relative;
         text-transform: uppercase;
         font-weight: 700;
-        font-size: 4rem;
+        font-size: 2rem;
         span{
             color: var(--color-secondary);
         }
@@ -627,5 +627,7 @@ section{
         }
     }
 }
+
+
 
 @import './media';
