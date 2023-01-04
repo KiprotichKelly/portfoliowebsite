@@ -39,6 +39,7 @@ body{
     font-size: 1.1rem;
     color: var(--color-white);
     transition: all .4s ease-in-out;
+  
     
 }
 a{
@@ -62,7 +63,7 @@ section{
     position: absolute;
     left: 0;
     top: 0;
-    padding: 3rem 8rem;
+    
 }
 
 
@@ -70,6 +71,7 @@ section{
     transform: translateY(-100%);
     transition: all .4s ease-in-out;
     background-color: var(--color-primary);
+    padding: 0rem 8rem;
 }
 
 .sec1{

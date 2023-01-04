@@ -1,4 +1,4 @@
-const url = 'cv/Getting started with OneDrive.pdf'
+const url = 'cv/Kelly Kiprotich_Resume.pdf'
 
 let pdfDoc =null,
 pageNum = 1,
@@ -7,7 +7,7 @@ pageNumIsPending =null;
 
 
 
-const scale = 2,
+const scale = 1.5,
 canvas =document.querySelector('#pdf-render'),
 ctx = canvas.getContext('2d');
 
